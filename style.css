@@ -1,0 +1,112 @@
+body{
+  color: white;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  width: 100vw;
+  
+}
+
+
+
+
+
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+  width: 100vw;
+} /* ---- particles.js container ---- */
+#particles-js {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.navbar{
+  color: white !important;
+}
+
+section{
+ 
+
+ 
+}
+
+#about{
+  
+  height: 80vh;
+}
+
+#about .row{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.row{
+  display: flex;
+}
+
+#profile-image{
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+
+
+}
+#profile-image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  /*box-shadow: 0px 0px 20px 2px  grey;*/
+}
+
+
+
+#skills{
+  height: 100vh;
+   color: white;
+  padding: 80px;
+  background-color: ;
+}
+i{
+  color: blue;
+}
+
+#education, #experience{
+  /*font-weight: bold;*/
+  letter-spacing: 0.1rem;
+}
+
+#education h1{
+  color: white;
+}
+#education{
+  height: auto;
+  color: black;
+}
+#education .row{
+
+}
+#experience{
+  height: 100vh;
+}
+
+#contact{
+  height: 100vh;
+}
+
+.card{
+  min-height: 200px;
+  background-color:  rgba(8,32,50,0.5);
+  color:   #F0A500 !important;
+}
